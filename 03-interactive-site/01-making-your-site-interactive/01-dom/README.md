@@ -253,7 +253,7 @@ Veamos a continuación más específicamente sus características.
 
 ## Propiedades de los nodos
 
-Los nodos del DOM poseen propiedades básicas, que cuales son:
+Los nodos del DOM poseen propiedades básicas, las cuales son:
 
 - **nodeName**, indica el nombre del nodo.
 
