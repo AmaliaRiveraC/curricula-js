@@ -105,7 +105,7 @@ re-flow.
 
 Del mismo modo, aplicar directamente estilos CSS o cambiar la clase puede
 alterar el diseño. Cambiar el ancho de un elemento puede afectar a todos los
-elementos de la misma rama DOM ya los que la rodean.
+elementos de la misma rama DOM y a los que la rodean.
 
 3 Animaciones y transiciones CSS3.
 
@@ -125,5 +125,5 @@ dimensiones de fuente, cambiando hojas de estilo o fuentes.
 El caudal de flujo de procesamiento de re-flow variará. Algunos navegadores
 son mejores que otros en ciertas operaciones. Algunos elementos generan más
 re-flow que otros. Afortunadamente, hay varios consejos generales que puede
-utilizar para mejorar el rendimiento, como el caso que vimos de ejemplo
+utilizar para [mejorar el rendimiento](https://developers.google.com/speed/docs/insights/browser-reflow), como el caso que vimos de ejemplo
 anteriormente.
