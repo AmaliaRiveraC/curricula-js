@@ -10,7 +10,7 @@ Una vez construido automáticamente el árbol completo de nodos DOM, ya es
 posible utilizar las funciones DOM para acceder de forma directa a cualquier
 nodo del árbol. Como acceder a un nodo del árbol es equivalente a acceder a
 "un trozo" de la página, una vez construido el árbol, ya es posible manipular
-e forma sencilla la página: acceder al valor de un elemento, establecer el
+de forma sencilla la página: acceder al valor de un elemento, establecer el
 valor de un elemento, mover un elemento de la página, crear y añadir nuevos
 elementos, etc.
 
@@ -22,7 +22,7 @@ padre consisten en acceder al nodo raíz de la página y después a sus nodos
 hijos y a los nodos hijos de esos hijos y así sucesivamente hasta el último
 nodo de la rama terminada por el nodo buscado. Sin embargo, cuando se quiere
 acceder a un nodo específico, es mucho más rápido acceder directamente a ese
-nodo y no llegar hasta él descendiendo a través de todos sus nodos padre.
+nodo y no llegar hasta él, descendiendo a través de todos sus nodos padre.
 
 Por ese motivo, no se van a presentar las funciones necesarias para el acceso
 jerárquico de nodos y se muestran solamente las que permiten acceder de forma
@@ -58,7 +58,7 @@ página, se utiliza el valor document como punto de partida de la búsqueda.
 
 El valor que devuelve la función es un array con todos los nodos que cumplen
 la condición de que su etiqueta coincide con el parámetro proporcionado. El
-valor devuelto es un array de nodos DOM, no un array de cadenas de texto o un
+valor devuelto es un [array de nodos DOM](http://www.etnassoft.com/2011/08/09/las-listas-de-nodos-y-los-arrays-en-javascript/), no un array de cadenas de texto o un
 array de objetos normales. Por lo tanto, se debe procesar cada valor del array
 de la forma que se muestra en las siguientes secciones.
 
