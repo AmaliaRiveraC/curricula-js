@@ -164,13 +164,9 @@ consta de cuatro pasos diferentes:
 
 3 Añadir el nodo Text como nodo hijo del nodo Element
 
-4 Añadir el nodo Element a la página, en forma de nodo hijo del nodo
+4 Añadir el nodo Element a la página, en forma de nodo hijo del nodo correspondiente al lugar en el que se quiere insertar el elemento.
 
-Correspondiente al lugar en el que se quiere insertar el elemento.
-
-5 De este modo, si se quiere añadir un párrafo simple al final de una página
-
-XHTML, es necesario incluir el siguiente código JavaScript.
+De este modo, si se quiere añadir un párrafo simple al final de una página XHTML, es necesario incluir el siguiente código JavaScript.
 
 ```js
 // Crear nodo de tipo Element
@@ -199,9 +195,8 @@ XHTML.
 3 `nodoPadre.appendChild(nodoHijo)`
 
 Añade un nodo como hijo de otro nodo.
-Se debe utilizar al menos dos veces.
-con los nodos habituales: en primer lugar se añade el nodo `Text` como hijo del
-nodo de la página.
+Si se ocupa esta función para añadir el nodo `Text` como hijo del
+nodo `Element` y a su vez este nodo `Element` como hijo del nodo existente en el HTML, `appendChild` se utiliza al menos dos veces.
 
 ## Eliminación de nodos
 
